@@ -1,7 +1,7 @@
 ﻿using CourseProvider.Infrastructure.Models;
 using CourseProvider.Infrastructure.Services;
 
-namespace CourseProvider.Infrastructure.GraphQL;
+namespace CourseProvider.Infrastructure.GraphQL.Querys;
 
 public class CourseQuery(ICourseService courseService)
 {
