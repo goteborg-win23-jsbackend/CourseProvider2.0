@@ -23,7 +23,7 @@ var host = new HostBuilder()
         services.AddScoped<ICourseService, CourseService>();
 
         services.AddGraphQLFunction()
-            .AddQueryType<Query>()
+            .AddQueryType<CourseQuery>()
             .AddMutationType<CourseMutation>()
             .AddType<CourseType>();
 
